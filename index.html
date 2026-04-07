@@ -3,19 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The KingsMan</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <title>The KingsMan (in search of the codename test)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body class="bg-dark text-white p-5">
-   <div class="container text-center" style="max-width: 500px;">
-        <h1 class="text-info mb-4">GitHub Challenger</h1>
-        <input type="text" id="in-user" class="form-control mb-3" placeholder="Please enter the username(ex:Cybrter0)">
-         <button onclick="searchUser()" class="btn btn-info w-100 mb-4">Search server</button> 
-         <div id="loading" class="spinner-border text-info d-none mb-3" role="status"></div> 
- 
+<body>
+    <div class="noise"></div>
+    <div class="container">
+        <div class="header">
+            <span class="tag">Detetive (Galahad) </span>
+            <h1>GitHub<br><em>Challenger</em></h1>
+            <p class="subtitle">Scan any GitHub profile</p>
+        </div>
+        <div class="search-block">
+            <input type="text" id="in-user" placeholder="username (ex: GwenMonoSup@fadinha)" autocomplete="off" spellcheck="false">
+            <button onclick="buscarUsuario()">
+                <span>RUN</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+        </div>
+        <div id="loading" class="spinner d-none">
+            <div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div>
+        </div>
         <div id="result"></div>
-   </div>
-     <script src="script.js"></script>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
