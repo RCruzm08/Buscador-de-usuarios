@@ -38,13 +38,11 @@ git clone https://github.com/RCruzm08/Buscador-de-usuarios.git
 ---
 
 ## 📁 Estrutura
-
 ```
 ├── index.html
 ├── style.css
 └── script.js
 ```
-
 ---
 
 ## 📌 Observações
