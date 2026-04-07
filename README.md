@@ -36,12 +36,12 @@ git clone https://github.com/RCruzm08/Buscador-de-usuarios.git
 2. Abra o arquivo `index.html` no seu navegador — pronto. Nenhuma etapa de compilação necessária.
 
 ---
----
+
 ## 📁 Estrutura
 ```
-├── index.html
-├── style.css
-└── script.js
+- ├── index.html
+- ├── style.css
+- └── script.js
 ```
 ---
 
