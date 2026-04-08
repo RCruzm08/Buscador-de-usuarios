@@ -42,6 +42,10 @@ async function buscarUsuario() {
                         <span class="stat-value">${dados.following}</span>
                         <span class="stat-label">following</span>
                     </div>
+                    <div class="stat">
+                        <span class="stat-value">${dados.location}</span>
+                        <span class="stat-label">following</span>
+                    </div>
                 </div>
                 <a class="profile-link" href="${dados.html_url}" target="_blank">View profile on GitHub ↗</a>
             </div>
